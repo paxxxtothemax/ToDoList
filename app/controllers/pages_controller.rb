@@ -3,6 +3,6 @@ class PagesController < ApplicationController
   	end
 
 
-  	def about
+  	def help
   	end
 end

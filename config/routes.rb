@@ -54,5 +54,6 @@ ToDoListApp::Application.routes.draw do
   #     resources :products
   #   end
 
-  resources: pages
+  root '/' => 'pages#home'
+  get'/help' => 'pages#help'
 end
